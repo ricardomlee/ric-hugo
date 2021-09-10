@@ -49,7 +49,7 @@ params:
         safari_pinned_tab: "<link / abs url>"
 
     label:
-        text: "Home"
+        text: "主页"
         icon: /apple-touch-icon.png
         iconHeight: 35
 
@@ -112,16 +112,16 @@ params:
 menu:
     main:
         - identifier: categories
-          name: categories
+          name: 目录
           url: /categories/
           weight: 10
         - identifier: tags
-          name: tags
+          name: 标签
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
+        - identifier: mirror
+          name: 镜像
+          url: https://ricli.ml
           weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
