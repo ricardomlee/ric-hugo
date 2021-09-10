@@ -1,5 +1,5 @@
 baseURL: "https://liming.ml/"
-title: Ming's Blog
+title: 怠惰
 paginate: 5
 theme: PaperMod
 
@@ -16,13 +16,13 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Ric Blog
-    description: "Ric's Blog"
+    title: 怠惰
+    description: "培提其乌斯·罗曼尼康帝，你很怠惰呢"
     keywords: [Blog, Hugo, PaperMod]
     author: Ric
     # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "January 2, 2006"
+    images: ["https://pbs.twimg.com/profile_images/777912200048496640/69XpxZTW_400x400.jpg"]
+    DateFormat: "December 25, 1996"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
@@ -70,8 +70,8 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Title: "你好 \U0001F44B"
+        Content: 欢迎来到我的博客
 
     socialIcons:
         - name: twitter
