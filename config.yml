@@ -2,6 +2,7 @@ baseURL: "https://liming.ml/"
 title: 怠惰
 paginate: 5
 theme: PaperMod
+defaultContentLanguage: zh
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -17,12 +18,12 @@ minify:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: 怠惰
-    description: "培提其乌斯·罗曼尼康帝，你很怠惰呢"
+    description: "おまえ怠惰ですね"
     keywords: [Blog, Hugo, PaperMod]
     author: Ric
     # author: ["Me", "You"] # multiple authors
     images: ["https://pbs.twimg.com/profile_images/777912200048496640/69XpxZTW_400x400.jpg"]
-    DateFormat: "January 2, 2006"
+    DateFormat: "2006-01-02"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
@@ -33,7 +34,9 @@ params:
     ShowCodeCopyButtons: false
     disableSpecial1stPost: false
     disableScrollToTop: false
-    comments: false
+    comments:
+        enabled: true
+        provider: waline
     hidemeta: false
     hideSummary: false
     showtoc: false
@@ -55,17 +58,17 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
+        enabled: true # needs to be explicitly set
+        title: 怠惰
+        subtitle: "你很怠惰呢"
+        imageUrl: "https://pbs.twimg.com/profile_images/777912200048496640/69XpxZTW_400x400.jpg"
         imageWidth: 120
         imageHeight: 120
-        imageTitle: my image
+        imageTitle: me
         buttons:
-            - name: Posts
+            - name: 文章
               url: posts
-            - name: Tags
+            - name: 标签
               url: tags
 
     # home-info mode
@@ -119,10 +122,14 @@ menu:
           name: 标签
           url: /tags/
           weight: 20
+        - identifier: about
+          name: 关于
+          url: /about/
+          weight: 30
         - identifier: mirror
           name: 镜像
           url: https://ricli.ml
-          weight: 30
+          weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
