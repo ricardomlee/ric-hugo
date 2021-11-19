@@ -130,6 +130,10 @@ menu:
           name: 镜像
           url: https://ricli.ml
           weight: 40
+        - identifier: nas
+          name: NAS
+          url: /nas/
+          weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
