@@ -2,4 +2,4 @@
 title: "关于"
 ---
 
-请访问英文博客：ricli.ml
+请访问英文博客：<https://ricli.ml>

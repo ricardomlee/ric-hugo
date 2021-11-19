@@ -128,7 +128,7 @@ menu:
           weight: 30
         - identifier: mirror
           name: 镜像
-          url: https://ricli.ml
+          url: /mirror/
           weight: 40
         - identifier: nas
           name: NAS
