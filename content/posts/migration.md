@@ -5,9 +5,11 @@ draft: false
 ---
 
 ## 整体迁移 ---- 完成度 100%
-框架：hexo --> hugo
-部署：github pages --> cloudflare pages
-域名：blog.liming.ml --> liming.ml
-DNS：dnspod --> cloudflare
+框架：hexo --> hugo    
+部署：github pages --> cloudflare pages  
+域名：blog.liming.ml --> liming.ml  
+DNS：dnspod --> cloudflare  
 
-## 内容迁移 ---- 完成度 60%
+> updated 22.7.4
+## 内容迁移 ---- 完成度 100%  
+## Doom Emacs + Hugo 配置 ---- 完成度 40%  
