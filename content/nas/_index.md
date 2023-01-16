@@ -9,4 +9,4 @@ title: "NAS"
     user: movie
     password: movie
 
-### [Zdir](https://zdir.6.ipadnote.ml)
+### [Alist](https://alist.6.ipadnote.ml)
