@@ -4,9 +4,11 @@ title: "NAS"
 
 ## 我的 NAS 应用
 
-### [Jellyfin](https://jellyfin.6.ipadnote.ml)
+只能通过IPv6网络访问
 
-    user: movie
-    password: movie
+### [Jellyfin](https://jelly.liming.ml)
 
-### [Alist](https://alist.6.ipadnote.ml)
+    user: tv
+    password: tv
+
+### [Alist](https://alist.liming.ml)

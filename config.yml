@@ -28,7 +28,7 @@ params:
     disableThemeToggle: false
 
     ShowReadingTime: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: false
@@ -36,7 +36,6 @@ params:
     disableScrollToTop: false
     comments:
         enabled: true
-        provider: waline
     hidemeta: false
     hideSummary: false
     showtoc: false
@@ -112,6 +111,20 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
+
+    giscus:
+        data_repo: "ricardomlee/giscustalks"
+        data_repo_id: "R_kgDOJLH5VQ"
+        data_category: "General"
+        data_category_id: "DIC_kwDOJLH5Vc4CU9J-"
+        data_mapping: "pathname"
+        data_reactions_enabled: "1"
+        data_emit_metadata: "0"
+        data_input_position: "top"
+        data_theme: "transparent_dark"
+        data_lang: "zh-CN"
+        crossorigin: "anonymous"
+
 menu:
     main:
         - identifier: categories
