@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-5QM3SN9909
 
 minify:
     disableXML: true
@@ -139,14 +139,6 @@ menu:
           name: 关于
           url: /about/
           weight: 30
-        - identifier: mirror
-          name: 镜像
-          url: /mirror/
-          weight: 40
-        - identifier: nas
-          name: NAS
-          url: /nas/
-          weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
